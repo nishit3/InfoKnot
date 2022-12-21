@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/privacypolicy"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/privacy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4385EC"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/privacy_policy"
+        android:drawableStart="@drawable/ic_pp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        tools:ignore="DuplicateIds" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="610dp"
+        android:layout_below="@+id/privacy"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/article"
+            android:layout_width="match_parent"
+            android:layout_height="681dp"
+            android:layout_below="@+id/privacy"
+            android:lineSpacingExtra="5sp"
+            android:text="@string/paragraph" />
+
+    </ScrollView>
+</RelativeLayout>

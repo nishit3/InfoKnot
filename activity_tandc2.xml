@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".terms_and_conditions">
+
+        <Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4385EC"
+            android:elevation="4dp"
+            tools:ignore="MissingConstraints">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="         Terms and Conditions"
+                android:drawableStart="@drawable/ic_terms"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+
+        </Toolbar>
+
+
+        <TextView
+            android:id="@+id/starter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginRight="10dp"
+            android:text="IMPORTANT. READ CAREFULLY. BY AGREEING TO THESE TOS AND USING THE SERVICE, YOU ARE SUBJECT TO A LEGAL AGREEMENT WITH WIREVE AND ITS AFFILIATES FOR INFOKNOT APPLICATION AND ANY OTHER DOCUMENTATION PROVIDED BY INFOKNOT AND ITS THIRD PARTY SUPPLIERS OR LICENSERS. THESE TOS APPLY TO ALL USERS OF THE SITE, INCLUDING WITHOUT LIMITATIONS."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/starter2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/starter"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="INFOKNOT is an application for smart education to promote research and innovation culture among students and learners across the country. Using this app, you will be well informed with the events happening all over the globe."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/headgrantoflicense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/starter2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:text="GRANT OF LICENSE"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/grantoflicense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/headgrantoflicense"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Subject to these terms and conditions, you are granted a revocable, non-exclusive, non-sublicensable, non-transferable license to install, access and use the service. The services and features may vary depending on certain factors like limitation, device, operating system, or network operator."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/agerestriction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/grantoflicense"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:text="AGE RESTRICTION"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/agerestriction2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/agerestriction"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="You have reached the age of 18.If you are 13 or older but younger than 18 (“Minor”), you acknowledge that you have reviewed these Terms with your parent or legal guardian, and that you and your parent or guardian understand and consent to the terms and conditions. If you are a parent or guardian permitting a Minor to use the Services, you agree to: (i) supervise the Minor's use of the Services; (ii) assume all risks associated with the Minor’s use of the Services, (iii) assume any liability resulting from the Minor’s use of the Services; (iv) ensure the accuracy and truthfulness of all information submitted by you or the Minor; and (v) assume responsibility and are bound by these Terms for the Minor’s access and use of the Services."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/reservations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/agerestriction2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:text="RESERVATION OF RIGHT SAND OWNERSHIP"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/reservations2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/reservations"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="You acknowledge that the service is proprietary to WireVe and its licensors, and protected under applicable copyright and other intellectual property laws and treaties. These TOS and you use of the service do not grant you any ownership interest in or to the service, and you are granted only a limited license to use, that is revocable in accordance with these TOS."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/restrictions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reservations2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:text="RESTRICTIONS"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/restrictions2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/restrictions"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="We work hard to protect the security and safety of all users of our Services. We also strive to make our Services available without interruption. To help us meet these goals, you agree that you will not:"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/restrictions3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/restrictions2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="1. reverse engineer, decompile, disassemble, or make any attempts to discover the source code or algorithms of our Services."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/restrictions4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/restrictions3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="2. modify or disable any features of our Services."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/restrictions5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/restrictions4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="3. create any derivative works based on our Services."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/restrictions6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/restrictions5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="4. rent, lease, lend, sub-license, or provide any commercial hosting services using our Services."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/restrictions7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/restrictions6"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="5. infringe our intellectual property rights or the rights of anyone else while using our Services."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/restrictions8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/restrictions7"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="6. use our Services in any way that violates these Terms or any laws, rules, regulations, codes of practices, guidelines, or any other requirements of regulatory authorities, as amended from time to time, within the jurisdiction in which you are a resident or from which you are using the Services (“Applicable Law”)."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/restrictions9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/restrictions8"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="7. use our Services in any fraudulent or malicious way, for example, to introduce viruses, malicious code, or harmful data."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/restrictions10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/restrictions9"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="8. use our Services in any way that could damage, disable, overburden, impair, or compromise our systems or security, or interfere with other users."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/restrictions11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/restrictions10"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="9. collect or harvest any information or data from our Services or systems or attempt to decipher any transmissions to or from the servers running our Services, except to the extent allowed by Applicable Law."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/internet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/restrictions11"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:text="INTERNET ACCESS"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/internet2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/internet"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Our service requires internet access. You acknowledge that access to the Internet may result in charges depending on your payment plan, and that we are not responsible for the availability or speed of the Internet."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/infoknot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/internet2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:text="INFOKNOT ACCOUNT"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/infoknot2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/infoknot"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="You will need an InfoKnot account to use our service. By creating this account, you agree that you will:"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/infoknot3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/infoknot2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="1.provide accurate and complete information when you create your account."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/infoknot4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/infoknot3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="2.update your account if any of your information changes."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/infoknot5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/infoknot4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="3.safeguard your password and not share it with anyone."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/infoknot6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/infoknot5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="4.contact us immediately if you suspect anyone else is using your account."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/infoknot6"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:text="UPDATE, CHANGE OR SUSPENSION OF SERVICE"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/update2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/update"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="To share improvements and new features with you, we may provide updates or upgrades to our Services. These updates and upgrades are designed to improve, enhance, and further develop our Services, and may include bug fixes, patches, enhanced features, plug-ins, and new versions. Essential updates such as critical bug fixes or security updates may be downloaded and installed automatically without your consent to protect you and other users.
+WireVe expressly reserves the right to change, suspend, remove, limit the use of or disable the access to the service or any portion thereof at any time without notice or liability."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/third"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/update2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:text="THIRD PARTY SERVICE AND USER CONTENT"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/third2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/third"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="We will provide you information from various domains from official sites to update you with the happenings. Users may also post any information or share links. Users can even request publishing/posting of any research paper or articles, or sharing information regarding an event they wish others to know about. We are solely responsible for bridging the gaps between people and have no control over the correctness of the provided information. However, we can promise the user to give the source of information in the from of links.
+When you share content, you continue to own the intellectual property rights to your content and you are free to share the content with anyone else however you would like. However, to use your content in our Services, you need to grant us a license for any content that you create or upload using our Services. We do our best to keep User Content safe, but we are not responsible if any of your User Content or other data is lost. You should keep local copies or make backups of content and other data in case something goes wrong.
+InfoKnot disclaims any warranty or representations to any third-party services or content in any aspects including, but not limited to, quality, accuracy, effectiveness, lack of viruses, non-infrigement of thrid-party rights and compliance of any applicable laws or regulations."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/termination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/third2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:text="TERMINATION"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/termination2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/termination"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="These TOS are effective until terminated. You can terminate these TOS by ceasing your use fo service, and uninstalling, deleting and returning all related software, documentations and other materials provided by InfoKnot. Should you not comply with these TOS, your rights based on these TOS will be automatically terminated without notice from InfoKnot."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/indemnification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/termination2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:text="INDEMNIFICATION"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/indemnification2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/indemnification"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="You agree to indemnify, defend and hold harmless InfoKnot, from any claims, losses, damages, liabilities arising out of your use of service, your violation of the rights of any third party, or any breach of these TOS."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/application"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/indemnification2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:text="APPLICATION LAW"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dispute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/application"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:text="DISPUTE RESOLUTION"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/entire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dispute"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:text="ENTIRE AGREEMENT"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/entire2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/entire"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="This agreement shall supersede all prior communications, proposals and representations with respect to this service covered by these TOS. If any provision of these TOS is to be held void, invalid, unenforcable/illegal, the other provisions shall continue in full force and effect.
+
+We reserve the right to refuse service to anyone at any time for any reason at ouor sole descretion.
+
+(checkbox)By using the application, you warrant that you have read these TOS and agree to be bound by it."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+
+</ScrollView>

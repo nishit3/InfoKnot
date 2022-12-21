@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4385EC"
+        android:elevation="4dp"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Notifications"
+            android:drawableStart="@drawable/ic_notifications"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+
+    </Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/onoffnotis"
+            android:layout_width="401dp"
+            android:layout_height="69dp"
+            android:layout_marginTop="34dp"
+            android:text=" Turn Off Notifications"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+        <CheckBox
+            android:id="@+id/recentopic"
+            android:layout_width="401dp"
+            android:layout_height="69dp"
+            android:layout_marginTop="34dp"
+            android:text=" Show Recent Topics Notifications"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lockscrn" />
+
+        <CheckBox
+            android:id="@+id/lockscrn"
+            android:layout_width="405dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="34dp"
+            android:text=" Show Notifications In Lockscreen"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/onoffnotis" />
+
+    </LinearLayout>
+
+</RelativeLayout>

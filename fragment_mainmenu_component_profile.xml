@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainmenu_component_profile">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/account_pp_show"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="127dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="25dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/infoknotlogo"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="1dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginBottom="7dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/profile_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="07dp"
+                    android:layout_marginTop="25dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@drawable/ic_name_write"
+                    android:gravity="left|center_vertical"
+                    android:text="    USERNAME"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginBottom="7dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/profile_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="07dp"
+                    android:layout_marginTop="25dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@drawable/ic_email"
+                    android:gravity="left|center_vertical"
+                    android:text="    EMAIL ADDRESS"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/profile_phonenum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginBottom="7dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/profile_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="07dp"
+                    android:layout_marginTop="25dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@drawable/ic_mobileno"
+                    android:gravity="left|center_vertical"
+                    android:text="    MOBILE NUMBER"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginBottom="7dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/profile_university"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="07dp"
+                    android:layout_marginTop="25dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@drawable/ic_interest"
+                    android:gravity="left|center_vertical"
+                    android:text="    UNIVERSITY"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginBottom="7dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/profile_pp_change"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="07dp"
+                    android:layout_marginTop="25dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@drawable/ic_name_logo"
+                    android:gravity="left|center_vertical"
+                    android:text="    PROFILE  PHOTO"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginBottom="7dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/profile_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="07dp"
+                    android:layout_marginTop="25dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@drawable/ic_password"
+                    android:gravity="left|center_vertical"
+                    android:text="    PASSWORD"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:orientation="horizontal" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

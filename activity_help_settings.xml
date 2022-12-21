@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4385EC"
+        android:elevation="4dp"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="HELP"
+            android:drawableStart="@drawable/ic_help"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+
+    </Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/tandc"
+            android:layout_width="389dp"
+            android:layout_height="59dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/white"
+            android:drawableStart="@drawable/ic_terms"
+            android:gravity="center_vertical"
+            android:text="    TERMS AND CONDITIONS"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/contactus" />
+
+        <Button
+            android:id="@+id/privacypolicy"
+            android:layout_width="389dp"
+            android:layout_height="59dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/white"
+            android:drawableStart="@drawable/ic_points"
+            android:gravity="center_vertical"
+            android:text="    Privacy policy"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/helpcentre" />
+
+        <Button
+            android:id="@+id/contactus"
+            android:layout_width="389dp"
+            android:layout_height="59dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/white"
+            android:drawableStart="@drawable/ic_contus"
+            android:gravity="center_vertical"
+            android:text="    CONTACT US"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/helpcentre" />
+
+        <Button
+            android:id="@+id/appinfo"
+            android:layout_width="389dp"
+            android:layout_height="59dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:background="#fbeeee"
+            android:backgroundTint="#fbeeee"
+            android:drawableStart="@drawable/ic_help"
+            android:gravity="center_vertical"
+            android:text="    APP INFO"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tandc" />
+
+        <Button
+            android:id="@+id/helpcentre"
+            android:layout_width="389dp"
+            android:layout_height="59dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:background="#fbeeee"
+            android:backgroundTint="#fbeeee"
+            android:drawableStart="@drawable/ic_help"
+            android:gravity="center_vertical"
+            android:text="    SUPPORT CENTER"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+    </LinearLayout>
+
+
+</RelativeLayout>

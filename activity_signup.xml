@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5dp"
+    android:background="#FFFFFF"
+    android:padding="2dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="2dp">
+
+        <Button
+            android:id="@+id/signup_btn"
+            android:layout_width="145dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:layout_marginTop="95dp"
+           android:background="@color/white"
+            android:text="signup"
+            android:textSize="18sp"
+            android:textColor="@color/signatureheadercolr"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/alreadyhaveacc_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:background="@color/white"
+            android:elevation="0dp"
+            android:text="already  have  account"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/signatureheadercolr"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/Username"
+            android:layout_width="400dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="5dp"
+            android:drawableStart="@drawable/ic_username"
+            android:drawablePadding="7dp"
+            android:ems="10"
+            android:hint="Username"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/phonenumber"
+            android:layout_width="400dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="5dp"
+            android:drawableStart="@drawable/ic_contus"
+            android:drawablePadding="7dp"
+            android:ems="10"
+            android:hint="Phone Number"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/univname"
+            android:layout_width="400dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="5dp"
+            android:drawableStart="@drawable/ic_interest"
+            android:drawablePadding="7dp"
+            android:ems="10"
+            android:hint="University Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/signup_user_email_field"
+            android:layout_width="400dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="5dp"
+            android:drawableStart="@drawable/ic_email"
+            android:drawablePadding="7dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/signup_user_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_password"
+            android:drawablePadding="7dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/selectprofileimg_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:text="Select  profile  photo"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/account_pp_show"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/infoknotlogo"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="1dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FBEEEE">
+
+    <Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#dbaaba"
+        android:elevation="4dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/ic_back_btn"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="                 Saved"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_gravity="center" />
+
+
+    </Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/ic_back_btn"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+           >
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp">
+
+                <LinearLayout
+
+                    android:layout_marginTop="30dp"
+                    android:layout_width="190dp"
+                    android:layout_height="200dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/border">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jun 1,2016"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="5dp"/>
+
+                    <TextView
+                        android:layout_marginTop="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="prediction of output energy based on different energy"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Agricultural Science"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"/>
+
+                    <ImageButton
+                        android:src="@drawable/ic_options"
+                        android:layout_marginTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="140dp"/>
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="190dp"
+                    android:layout_height="200dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/border">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jun 1,2016"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="5dp"/>
+
+                    <TextView
+                        android:layout_marginTop="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="prediction of output energy based on different energy"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Agricultural Science"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"/>
+
+                    <ImageButton
+                        android:src="@drawable/ic_options"
+                        android:layout_marginTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="140dp"/>
+
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            //another//
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp">
+
+                <LinearLayout
+
+                    android:layout_marginTop="30dp"
+                    android:layout_width="190dp"
+                    android:layout_height="200dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/border">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jun 1,2016"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="5dp"/>
+
+                    <TextView
+                        android:layout_marginTop="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="prediction of output energy based on different energy"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Agricultural Science"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"/>
+
+                    <ImageButton
+                        android:src="@drawable/ic_options"
+                        android:layout_marginTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="140dp"/>
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="190dp"
+                    android:layout_height="200dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/border">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jun 1,2016"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="5dp"/>
+
+                    <TextView
+                        android:layout_marginTop="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="prediction of output energy based on different energy"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Agricultural Science"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"/>
+
+                    <ImageButton
+                        android:src="@drawable/ic_options"
+                        android:layout_marginTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="140dp"/>
+
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

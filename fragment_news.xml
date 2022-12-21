@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".news">
+
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:padding="10dp">
+
+            <ImageButton
+                android:id="@+id/big_pic"
+                android:layout_width="390dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kwotlin" />
+
+
+            <TextView
+                android:id="@+id/headlines"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/big_pic"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="14dp"
+                android:text="Who’s winning the e-commerce game?"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/today"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/headlines"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Today"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/today"
+                android:layout_marginTop="0dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/a"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/fstnws" />
+
+                    <TextView
+                        android:id="@+id/b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="160dp"
+                        android:layout_marginTop="20dp"
+                        android:text="What made the last century’s great innovations possible?"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="160dp"
+                        android:layout_marginTop="110dp"
+                        android:text="Science News"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/d"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/n2" />
+
+                    <TextView
+                        android:id="@+id/e"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="160dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Scientists and farmers see ways to make AI useful to agriculture"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/f"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="160dp"
+                        android:layout_marginTop="110dp"
+                        android:text="UF News"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/g"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/n3" />
+
+                    <TextView
+                        android:id="@+id/h"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="160dp"
+                        android:layout_marginTop="20dp"
+                        android:text="AutoStore's Robot Feud With Ocado Goes to High Court in London"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/i"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="160dp"
+                        android:layout_marginTop="110dp"
+
+                        android:text="US News"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/j"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/n4" />
+
+                    <TextView
+                        android:id="@+id/k"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="160dp"
+                        android:layout_marginTop="20dp"
+
+                        android:text="What’s holding back 5G?"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/l"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="160dp"
+                        android:layout_marginTop="110dp"
+
+                        android:text="Mint"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/m"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/n5" />
+
+                    <TextView
+                        android:id="@+id/n"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="160dp"
+                        android:layout_marginTop="20dp"
+
+                        android:text="First ever self replicating robots"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/o"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="160dp"
+                        android:layout_marginTop="110dp"
+
+                        android:text="The Hindu"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/p"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/n6" />
+
+                    <TextView
+                        android:id="@+id/q"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="160dp"
+                        android:layout_marginTop="20dp"
+
+                        android:text="Scientists Develop Self-Healing Materials Made From Jelly And Salt"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/r"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="160dp"
+                        android:layout_marginTop="110dp"
+
+                        android:text="India Times"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/s"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/n7" />
+
+                    <TextView
+                        android:id="@+id/t"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="160dp"
+                        android:layout_marginTop="20dp"
+
+                        android:text="AI chatbot vs human agents, who’s winning the e-commerce game?"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/u"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="160dp"
+                        android:layout_marginTop="110dp"
+
+                        android:text="Analytics India Magazine"
+                        android:textSize="19sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/v"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/n8" />
+
+                    <TextView
+                        android:id="@+id/w"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="160dp"
+                        android:layout_marginTop="20dp"
+
+                        android:text="14 Most Popular Presentations On AIML"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/x"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="160dp"
+                        android:layout_marginTop="110dp"
+
+                        android:text="Analytics India Magazine"
+                        android:textSize="19sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/y"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/n9" />
+
+                    <TextView
+                        android:id="@+id/z"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="160dp"
+                        android:layout_marginTop="20dp"
+
+                        android:text="The 4 Top Artificial Intelligence Trends For 2021"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/aa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="160dp"
+                        android:layout_marginTop="110dp"
+
+                        android:text="Forbes"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/small_pic1"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/n10" />
+
+                    <TextView
+                        android:id="@+id/preview_pic1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_toRightOf="@id/small_pic1"
+                        android:text="10 Ways AI Is Improving Manufacturing In 2020"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/refrence"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginTop="110dp"
+                        android:layout_toRightOf="@id/small_pic1"
+                        android:text="Forbes"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</FrameLayout>

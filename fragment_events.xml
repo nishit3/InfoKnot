@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".events">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/symp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white"
+            android:drawableStart="@drawable/ic_symposium"
+            android:padding="10dp"
+            android:text="         symposium"
+            android:textAlignment="viewStart"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/workshop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:background="@color/white"
+            android:drawableStart="@drawable/ic_workshop"
+            android:padding="10dp"
+            android:text="         Workshop"
+            android:textAlignment="viewStart"
+            android:textSize="15sp" />
+    </LinearLayout>
+</FrameLayout>
